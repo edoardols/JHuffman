@@ -8,7 +8,7 @@ This software was developed as a project for the course *Algortimi e Strutture D
 To run or compile this project, ensure you have the following installed on your system:
 
 * Java Development Kit (JDK) 8 or higher.
-* A Java-compatible IDE or access to the Java CLI.
+* A Java-compatible IDE or the Java CLI tools.
 
 ## Code Structure and Workflow
 
