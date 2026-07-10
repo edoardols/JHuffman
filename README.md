@@ -26,9 +26,19 @@ The software operates through the following logical phases:
 
 The table below demonstrates the compression efficiency and performance metrics of the **JHuffman** algorithm across various text sizes. 
 
-| Input File | Number of Characters | Original Size | Output File | Compressed Size | Compression Ratio | Execution Time | Decompression Status |
-| :--- | :---: | :---: | :--- | :---: | :---: | :---: | :---: |
-| 10.txt | 10 | 1KB | 10_output_short.txt | 0KB | 57.0% | 1 ms | Passed |
+| Number of Characters | Original Size | Compressed Size | Compression Ratio | Encode Time |
+| :---: | :---: | :---: | :---: | :---: |
+| 10 | 1KB | 1KB | 57.0% | 1 ms |
+| 50 | 1KB | 1KB | 51.0% | 3 ms |
+| 100 | 2KB | 1KB | 48.0% | 7 ms |
+| 500 | 4KB | 2KB | 47.0% | 46 ms |
+| 1.000 | 7KB | 4KB | 46.0% | 54 ms |
+| 5.000 | 32KB | 13KB | 46.0% | 316 ms |
+| 10.000 | 62KB | 39KB | 46.0% | 475 ms |
+| 50.000 | 302KB | 139KB | 46.0% | 2147 ms |
+| 100.000 | 603KB | 278KB | 46.0% | 4623 ms |
+| 500.000 | 3.007KB | 1384KB | 46.0% | 66478 ms |
+| 1.000.000 | 6.018KB | 2769KB | 46.0% | 348058 ms |
 
 > **Note:** The Compression Ratio is calculated using the formula:  
 > `((Bit input - Bit encoded input) / Bit input) * 100`
