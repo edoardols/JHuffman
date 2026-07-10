@@ -8,7 +8,7 @@ This project was developer for the *Algortimi e Strutture Dati* during the BSc *
 To run or compile this project, ensure you have the following installed on your system:
 
 * Java Development Kit (JDK) 8 or higher
-* A Java-compatible IDE (such as IntelliJ IDEA or Eclipse) or access to the Java CLI
+* A Java-compatible IDE or access to the Java CLI
 
 ## Code Structure and Workflow
 
