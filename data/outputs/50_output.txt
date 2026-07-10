@@ -1,0 +1,47 @@
+START
+FILE NAME: data/50.txt
+START ENCODE
+
+Encoded message
+1110110100011101110010001110000011011100110010000010010111101010001100011001111011001111001100110110111101010011111010000111011011011111110111011011110000110000000100011011010111101010001000110
+
+Compressed message
+íÈàÜÈ%ê1Ï3oSèvßÝ¼0µê# last bit non compressed 0
+
+character frequency HuffmanCode
+space 6 100
+, 1 111010
+. 1 000110
+L 1 111011
+a 1 111100
+c 2 11111
+d 1 00010
+e 4 1101
+i 3 0111
+l 1 111101
+m 3 1100
+n 1 000111
+o 6 010
+p 2 0000
+r 5 001
+s 3 0110
+t 7 101
+u 2 11100
+
+statisticsEncode
+Build time table 0 ms
+Build time code 1 ms
+Encode time 3 ms
+Character input 50
+Bit input 400
+Bit encoded input 193
+Compression factor 51%
+START DECODE
+
+Decoded message
+Lorem ipsum dolor sit amet, consectetur porttitor.
+
+statisticDecode
+Decode time 5 ms
+
+END

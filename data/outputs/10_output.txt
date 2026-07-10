@@ -1,0 +1,39 @@
+START
+FILE NAME: data/10.txt
+START ENCODE
+
+Encoded message
+0111111000101100110011101101010001
+
+Compressed message
+~,ÎÔ last bit non compressed 01
+
+character frequency HuffmanCode
+space 1 1100
+. 1 001
+L 1 011
+d 1 1110
+e 1 101
+i 1 010
+m 1 100
+o 1 1111
+r 1 000
+u 1 1101
+
+statisticsEncode
+Build time table 0 ms
+Build time code 1 ms
+Encode time 1 ms
+Character input 10
+Bit input 80
+Bit encoded input 34
+Compression factor 57%
+START DECODE
+
+Decoded message
+Lorem dui.
+
+statisticDecode
+Decode time 0 ms
+
+END
