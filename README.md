@@ -24,7 +24,7 @@ The software operates through the following logical phases:
 
 ## Performance & Test Results
 
-The table below demonstrates the compression efficiency and performance metrics of the **JHuffman** algorithm across various text sizes. 
+The table below demonstrates the compression efficiency and performance metrics of the **JHuffman** algorithm across various text sizes using a Lorem Ipsum generator. 
 
 | Number of Characters | Original Size | Compressed Size | Compression Ratio | Encode Time |
 | :---: | :---: | :---: | :---: | :---: |
