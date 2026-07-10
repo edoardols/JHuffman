@@ -2,7 +2,7 @@
 
 JHuffman is a Java-based application that implements the Huffman coding algorithm, a classic lossless data compression technique based on character frequencies. The project allows users to compress text files to reduce their storage footprint, as well as decompress previously encoded files back to their original state.
 
-This project was developer for the *Algortimi e Strutture Dati* during the BSc *Computer Science and Electronic Engineering* at the *University of Perugia*
+This software was developed as a project for the course *Algortimi e Strutture Dati* during the BSc *Computer Science and Electronic Engineering* at the *University of Perugia*
 
 ## Prerequisites
 To run or compile this project, ensure you have the following installed on your system:
